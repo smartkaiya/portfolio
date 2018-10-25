@@ -1,0 +1,137 @@
+#leftSide {
+    background: url('./leftSide.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0 4px 0px 20px;
+    width: 50%;
+    position: absolute;
+    left: 0px;
+    height: 80vh;
+ }
+ #rightSide {
+    background: url('./rightSide.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0 20px 0px 4px;
+    width: 50%; 
+    position: absolute;
+    right: 0px;
+    height: 80vh;
+ }
+
+ #myName{
+     
+     top: 4px;
+     left: 26px;
+     font-size: 32px;
+ }
+
+ body{
+    border: 10px solid black;
+    padding: 5px;
+    }
+
+    #quote{
+        position: absolute;
+        bottom: 26px;
+        left: 20px;
+        font-size: 26px;
+        color: white;  
+    }
+
+    #frontPage{
+        overflow: scroll;
+    }
+ 
+    #contact{
+        background: url('./contact.jpg')no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin: 0 20px 4px 4px;
+        width: 100%; 
+        position: absolute;
+        right: 0px;
+        left: 0px;
+        height: 80%;
+        z-index: -1;
+     }
+ 
+     #thankYou{
+        background: url('./thank-you2.jpg')no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin: 0 20px 4px 4px;
+        width: 100%; 
+        padding: 20px;
+        position: absolute;
+        right: 0px;
+        left: 0px;
+        height: 82%;
+        z-index:-1;
+     }
+     #text{
+         color:black;
+         font-size: 26px;
+         display: flex;
+         justify-content:center;
+         align-items: center;
+     }
+     #thank-you-card{
+         display: flex;
+         justify-content: center;
+         padding: 2%;
+     }
+     .page1{
+         height: 80vh;
+         overflow: hidden;
+         position: relative;
+         width: 100%;
+     }
+     #buttons{
+       display: flex;
+        justify-content:space-around;
+        align-items: flex-end;
+     }
+
+     #input-contact{
+         margin-top: 5%;
+         padding: 10%;
+        display: flex;
+        justify-content:flex-start;
+        align-items: center; 
+        flex-direction: column; 
+     }
+
+     .card-container{
+         padding: 20px;
+         margin-top: 5%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+     }
+
+     #about-me{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+     }
+     .about{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+     }
+
+     #about-section{
+        text-indent: 30px;
+        padding: 20px;
+        font-size: 20px;
+     }
+   
